@@ -1,0 +1,26 @@
+{
+  "name": "tracker-modern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://AlexCreatin.github.io/js-tracker",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "vercel": "^23.1.2"
+  },
+  "dependencies": {
+    "ba": "^0.0.5",
+    "babel-polyfill": "^6.26.0",
+    "l": "^0.6.0",
+    "lea": "^2.2.4",
+    "leaflet": "^1.7.1"
+  }
+}
